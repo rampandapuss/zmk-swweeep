@@ -69,8 +69,8 @@
             bindings = <
     &kp      Q   &kp       W   &kp      E   &kp        R     &kp     T                                   &kp       Y       &kp        U   &lt WINNAV I       &kp      O     &kp      P
     &kp      A   &hm LCTRL S   &hm LALT D   &hs LSHIFT F     &kp     G                                   &lt MOUSE H       &hs RSHIFT J   &hm RALT   K       &hm RCTL L     &kp      SEMICOLON
-    &hm LGUI Z   &kp       X   &kp      C   &kp        V     &kp     B                                   &kp       N       &kp        M   &kp        COMMA   &kp      DOT   &hm RGUI DQT
-                                            &kp        DEL   &lt NAV RET  &lt FUNC TAB  &lt MEDIA BSPC   &lt SYM   SPACE   &kp SQT
+    &hm LGUI Z   &kp       X   &kp      C   &kp        V     &kp     B                                   &kp       N       &kp        M   &kp        COMMA   &kp      DOT   &hm RGUI SQT
+                                            &kp        TAB   &lt NAV SPACE  &lt FUNC TAB  &lt MEDIA RET  &lt SYM   SPACE   &kp RET 
             >;
         };
 
