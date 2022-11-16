@@ -70,7 +70,7 @@
     &kp      Q   &kp       W   &kp      E   &kp        R     &kp        T                                    &kp          Y       &kp        U   &lt WINNAV I       &kp      O     &kp      P
     &kp      A   &hm LCTRL S   &hm LALT D   &hs LSHIFT F     &kp        G                                    &lt MOUSE    H       &hs RSHIFT J   &hm RALT   K       &hm RCTL L     &kp      SEMICOLON
     &hm LGUI Z   &kp       X   &kp      C   &kp        V     &kp        B                                    &kp          N       &kp        M   &kp        COMMA   &kp      DOT   &hm RGUI SQT
-                                            &kp        TAB   &lt NAVNUM SPACE  &lt FUNC DEL  &lt MEDIA BSPC  &lt NAVNUM   SPACE   &kp RET 
+                                            &kp        TAB   &lt NAVNUM SPACE  &lt FUNC BSPC  &lt MEDIA DEL  &lt NAVNUM   SPACE   &kp RET 
             >;
         };
 
@@ -81,7 +81,7 @@
     &kp ESC      &kp PG_UP    &kp UP      &kp PG_DN     &trans                                      &kp FSLH    &kp N1       &kp N2        &kp N3      &kp PLUS
     &kp HOME     &kp LEFT     &kp DOWN    &kp RIGHT     &kp END                                     &kp ASTRK   &kp N4       &kp N5        &kp N6      &kp MINUS
     &trans       &trans       &trans      &trans        &trans                                      &kp DOT     &kp N7       &kp N8        &kp N9      &kp N0
-                                          &kp TAB       &kp SPACE       &kp DEL       &kp BSPC      &kp SPACE   &kp RET
+                                          &kp TAB       &kp SPACE       &kp BSPC       &kp DEL      &kp SPACE   &kp RET
             >;
         };
 
