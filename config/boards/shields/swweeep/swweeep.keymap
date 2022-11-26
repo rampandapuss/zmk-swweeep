@@ -78,10 +78,10 @@
             label = "Nav Num";
 
             bindings = <
-    &kp ESC      &kp PG_UP    &kp UP      &kp PG_DN     &trans                                      &kp FSLH    &kp N1       &kp N2        &kp N3      &kp PLUS
-    &kp HOME     &kp LEFT     &kp DOWN    &kp RIGHT     &kp END                                     &kp ASTRK   &kp N4       &kp N5        &kp N6      &kp MINUS
-    &trans       &trans       &trans      &trans        &trans                                      &kp DOT     &kp N7       &kp N8        &kp N9      &kp N0
-                                          &kp TAB       &kp SPACE       &kp BSPC       &kp DEL      &kp SPACE   &kp RET
+    &kp ESC     &kp LALT(LEFT) &kp UP      &kp LALT(RIGHT) &kp PG_UP                                   &kp FSLH    &kp N1       &kp N2        &kp N3      &kp PLUS
+    &kp TAB     &kp LEFT       &kp DOWN    &kp RIGHT       &kp PG_DN                                   &kp ASTRK   &kp N4       &kp N5        &kp N6      &kp MINUS
+    &trans      &trans         &trans      &trans          &trans                                      &kp DOT     &kp N7       &kp N8        &kp N9      &kp N0
+                                          &kp TAB          &kp SPACE       &kp BSPC       &kp DEL      &kp SPACE   &kp RET
             >;
         };
 
@@ -89,15 +89,15 @@
             label = "Symbols";
 
             bindings = <
-    &kp EXCL     &kp AT       &kp HASH        &kp DLLR         &kp PRCNT                                   &kp CARET     &kp AMPS          &kp ASTRK     &kp UNDER   &kp EQUAL
-    &kp MINUS    &kp LBKT     &kp LBRC        &kp LPAR         &kp LT                                      &kp GT        &kp RPAR          &kp RBRC      &kp RBKT    &kp PLUS
-    &kp CAPS     &kp GRAVE    &kp LC(LS(TAB)) &kp LC(LG(LEFT)) &caps_word                                  &trans        &kp LC(LG(RIGHT)) &kp LC(TAB)   &trans      &kp BSLH
-                                              &trans           &kp RET       &kp DEL        &kp BSPC       &trans        &trans
+    &trans      &trans       &trans          &trans           &kp TILDE                                   &kp GRAVE     &kp UNDERSCORE    &kp EQUAL     &kp LEFT_BRACE   &kp RIGHT_BRACE
+    &kp CAPS    &trans       &trans          &kp MINUS        &kp PLUS                                    &kp SLASH     &kp PIPE          &kp BACKSLASH &kp LEFT_BRACKET &kp RIGHT_BRACKET
+    &kp EXCL    &kp AT_SIGN  &kp HASH        &kp DOLLAR       &kp PERCENT                                 &kp CARET     &kp AMPERSAND     &kp ASTERISK  &kp LPAR         &kp RPAR
+                                             &kp TAB          &kp SPACE       &kp BSPC        &kp DEL     &kp SPACE     &kp RET
             >;
         };
 
         func_layer {
-            label = "Function";
+            label = "Func";
 
             bindings = <
     &bootloader  &kp LS(PG_UP) &kp LS(UP)   &kp LS(PG_DN) &trans                                         &kp C_MUTE       &kp F7       &kp F8        &kp F9      &kp F10
