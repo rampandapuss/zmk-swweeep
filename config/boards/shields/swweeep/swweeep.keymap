@@ -68,7 +68,7 @@
 
             bindings = <
     &kp      Q   &kp       W   &kp      E   &kp        R     &kp        T                                    &kp          Y       &kp        U   &lt WINNAV I       &kp      O     &kp      P
-    &hm LGUI A   &hm LALT  S   &hm LCTL D   &hs LSHIFT F     &kp        G                                    &lt MOUSE    H       &hs RSHIFT J   &hm RCTL   K       &hm RALT L     &hm RGUI SEMICOLON
+    &hm LGUI A   &hm LALT  S   &hm LCTL D   &hs LSHIFT F     &lt SYM    G                                    &lt SYM      H       &hs RSHIFT J   &hm RCTL   K       &hm RALT L     &hm RGUI SEMICOLON
     &kp Z        &kp       X   &kp      C   &kp        V     &kp        B                                    &kp          N       &kp        M   &kp        COMMA   &kp      DOT   &kp      SQT
                                             &kp        TAB   &lt NAVNUM SPACE  &lt FUNC BSPC  &lt MEDIA DEL  &lt NAVNUM   SPACE   &kp RET 
             >;
@@ -78,7 +78,7 @@
             label = "Nav Num";
 
             bindings = <
-    &kp ESC     &kp RA(LEFT)   &kp UP      &kp RA(RIGHT) &kp PG_UP                                   &kp FSLH    &kp N1       &kp N2        &kp N3      &kp PLUS
+    &kp ESC     &kp RA(LEFT)   &kp UP      &kp RA(RIGHT)   &kp PG_UP                                   &kp FSLH    &kp N1       &kp N2        &kp N3      &kp PLUS
     &kp TAB     &kp LEFT       &kp DOWN    &kp RIGHT       &kp PG_DN                                   &kp ASTRK   &kp N4       &kp N5        &kp N6      &kp MINUS
     &trans      &trans         &trans      &trans          &trans                                      &kp DOT     &kp N7       &kp N8        &kp N9      &kp N0
                                           &kp TAB          &kp SPACE       &kp BSPC       &kp DEL      &kp SPACE   &kp RET
